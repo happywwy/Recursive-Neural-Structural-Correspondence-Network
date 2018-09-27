@@ -19,6 +19,7 @@ The code is an implementation of the following paper:
 
 Please follow the following steps:
 1. Go to 'util' folder to produce intermediate files:
+   - Download Stanford dependency tree parser
    - use '10depParse.py' to generate dependency trees
    - use '20dtreeLabel_cross_split.py' to build data structures and split data to training and testing
    - use '30word_embedding.py' to store pre-trained word embeddings
